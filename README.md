@@ -62,28 +62,31 @@ npm start
 Frontend runs at:
 http://localhost:5173/
 
+---
 
 ## 🧪 Sample API Endpoints
 
-POST /api/login/ – User login
-POST /api/signup/ – User registration
-GET /api/profile/ – Fetch logged-in user profile
-PATCH /api/profile/ – Update profile details
-POST /api/posts/ – Create a post
-GET /api/posts/ – Fetch all posts
-POST /api/posts/<id>/like/ – Like a post
-POST /api/posts/<id>/dislike/ – Dislike a post
-DELETE /api/posts/<id>/delete/ – Delete own post
+- POST /api/login/ – User login
+- POST /api/signup/ – User registration
+- GET /api/profile/ – Fetch logged-in user profile
+- PATCH /api/profile/ – Update profile details
+- POST /api/posts/ – Create a post
+- GET /api/posts/ – Fetch all posts
+- POST /api/posts/<id>/like/ – Like a post
+- POST /api/posts/<id>/dislike/ – Dislike a post
+- DELETE /api/posts/<id>/delete/ – Delete own post
+
+---
 
 ## 🧠 Skills Learned
 
-Building RESTful APIs using Django REST Framework
-Implementing JWT authentication with access and refresh tokens
-Handling token expiration and automatic logout
-Writing secure and protected backend endpoints
-Managing React state and re-fetching data correctly
-Integrating frontend with backend using Axios
-Using Axios interceptors for authentication
-Debugging full-stack issues across React and Django
-Structuring a full-stack project professionally
-Using Git and GitHub with proper .gitignore practices
+- Building RESTful APIs using Django REST Framework
+- Implementing JWT authentication with access and refresh tokens
+- Handling token expiration and automatic logout
+- Writing secure and protected backend endpoints
+- Managing React state and re-fetching data correctly
+- Integrating frontend with backend using Axios
+- Using Axios interceptors for authentication
+- Debugging full-stack issues across React and Django
+- Structuring a full-stack project professionally
+- Using Git and GitHub with proper .gitignore practices

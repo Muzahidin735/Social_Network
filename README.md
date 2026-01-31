@@ -42,6 +42,8 @@ This project focuses on secure authentication, clean API design, and proper fron
 git clone https://github.com/<your-username>/social_network.git
 cd social_network
 
+---
+
 ### 2️⃣ Backend Setup (Django)
 python -m venv my_env
 my_env\Scripts\activate    # Windows
@@ -53,6 +55,8 @@ python manage.py runserver
 
 Backend runs at:
 http://127.0.0.1:8000
+
+---
 
 ### 3️⃣ Frontend Setup (React)
 cd frontend

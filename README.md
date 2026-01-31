@@ -42,8 +42,7 @@ This project focuses on secure authentication, clean API design, and proper fron
 git clone https://github.com/<your-username>/social_network.git
 cd social_network
 
-
-## BackEnd Setup (Django)
+### 2️⃣ Backend Setup (Django)
 python -m venv my_env
 my_env\Scripts\activate    # Windows
 # source my_env/bin/activate  # macOS/Linux
@@ -52,15 +51,19 @@ pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
 
-runs at http://127.0.0.1:8000
+Backend runs at:
+http://127.0.0.1:8000
 
-## Frontend Setup(React)
+### 3️⃣ Frontend Setup (React)
 cd frontend
 npm install
 npm start
-runs at http://localhost:5173/
 
-🧪 Sample API Endpoints
+Frontend runs at:
+http://localhost:5173/
+
+
+## 🧪 Sample API Endpoints
 
 POST /api/login/ – User login
 POST /api/signup/ – User registration
@@ -72,7 +75,7 @@ POST /api/posts/<id>/like/ – Like a post
 POST /api/posts/<id>/dislike/ – Dislike a post
 DELETE /api/posts/<id>/delete/ – Delete own post
 
-🧠 Skills Learned
+## 🧠 Skills Learned
 
 Building RESTful APIs using Django REST Framework
 Implementing JWT authentication with access and refresh tokens
